@@ -8,7 +8,7 @@ Projet de pédale de reverbe et multivoicer.
 1. 4xPotentiomètres
 
 ## Matériel fourni par le prof
-Mécanique (boitier, boutton, knobs)
+Mécanique (boitier, boutton, knobs) : Foot switch
 
 **DIY guitar pedal teensy**
 https://learn.sparkfun.com/tutorials/proto-pedal-example-programmable-digital-pedal/all
