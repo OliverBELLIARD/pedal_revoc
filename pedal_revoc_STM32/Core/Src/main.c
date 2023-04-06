@@ -18,6 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
+#include "dac.h"
+#include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -41,7 +44,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint32_t DAC_buff[4] = {0, 1241, 2482, 3723};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -82,7 +85,13 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_ADC1_Init();
+  MX_DAC1_Init();
   /* USER CODE BEGIN 2 */
+  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+  HAL_DAC_Start(&hdac1, DAC_CHANNEL_1);
 
   /* USER CODE END 2 */
 
@@ -90,6 +99,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+//	  DAC1->DHR12R1 = DAC_OUT[i++];
+	  HAL_DAC_SetValue(&hdac1, DAC_CHANNEL_1, DAC_ALIGN_12B_R, DAC_OUT[i++]);
+	  if(i == 4)
+	  {
+		  i = 0;
+	  }
+	  HAL_Delay(50); //Min DAC delay
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
