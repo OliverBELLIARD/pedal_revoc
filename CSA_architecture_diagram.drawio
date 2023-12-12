@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T13:07:31.943Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" version="22.1.7" etag="N-pTDkcXQyIYJYuxD-Gi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T13:21:43.703Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="1UBW778jHpybt_THlFml" version="22.1.7" type="github">
   <diagram name="Page-1" id="jphytTIUpwSu1svT0UrW">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;strokeColor=#95C11F;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-1" target="BYODVOT2B5-JAzrf2mzD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-1" value="Application Meta Quest2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-2" value="Smartphones &amp;amp; tablettes" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-3" target="BYODVOT2B5-JAzrf2mzD-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="108" />
+              <mxPoint x="500" y="180" />
+              <mxPoint x="630" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-3" target="BYODVOT2B5-JAzrf2mzD-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="108" />
+              <mxPoint x="500" y="108" />
+              <mxPoint x="500" y="180" />
+              <mxPoint x="430" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#E9511B;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-16" target="BYODVOT2B5-JAzrf2mzD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-3" value="Concepteur&lt;br&gt;des plans" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=4;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-7" target="BYODVOT2B5-JAzrf2mzD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=5;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-7" target="BYODVOT2B5-JAzrf2mzD-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="174" />
+              <mxPoint x="310" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-7" value="Serveur" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;strokeColor=#95C11F;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-2" target="BYODVOT2B5-JAzrf2mzD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="340" />
+              <mxPoint x="217" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-15" value="Mises à jour du terrain" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#95C11F;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#E9511B;" edge="1" parent="1" source="BYODVOT2B5-JAzrf2mzD-3" target="BYODVOT2B5-JAzrf2mzD-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="100" as="sourcePoint" />
+            <mxPoint x="230" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BYODVOT2B5-JAzrf2mzD-16" value="IFC à jour" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#E9511B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="85" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
